@@ -446,7 +446,7 @@ html {
 
     .profile-image {
         width: 50vh; /* Adjust size for smaller screens */
-        margin-right: 0; /* Remove right margin */
+        margin-right: 2vh; /* Remove right margin */
     }
 
     .button5 {
