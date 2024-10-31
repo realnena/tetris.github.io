@@ -268,10 +268,10 @@ section {
 
 /* Profile Image Styles */
 .profile-image {
-    width: 100%;
-    height: 80vh;
-    border-radius: 10px;
-    margin-bottom: none;
+    width: 50vh; /* Adjust as needed */
+    height: 50vh;
+    max-height: 400px;
+    margin-right: 100px; /* Adds space between the image and button */
 }
 
 
@@ -284,18 +284,17 @@ section {
     margin-bottom: 10px;
     
 }
-.button5{
+.button5 {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 5px;
+    align-items: center;
+    margin-top: 5px; /* Remove top margin to align with image */
 }
 
 .github-button {
     background-color: #ffffff;
     color: black;
     font-size: 1.8rem;
-    padding: 22px 68px;
+    padding: 20px 48px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -303,9 +302,10 @@ section {
     display: flex;
 }
 
-.sec5low{
+.sec5low {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; /* Aligns items at the top */
 }
 
 #section5 a{
@@ -378,6 +378,7 @@ section {
     font-size: 45px;
     color: #ffffff;
     margin-bottom: none;
+    margin-top: 48px
     
 }
 
@@ -387,22 +388,18 @@ section {
    width: 100%;
    justify-content: center;
    padding-bottom: 17%;
+   margin-top: 70px;
 }
 
 .member {
-
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    color: white;
-    margin-bottom: 20px;
+    width: 42vh; /* Increase width to make images larger */
+    height: 42vh; /* Increase height accordingly */
+    margin-bottom: 10px; /* Reduce bottom margin to minimize spacing */
 }
 
 .member-image {
-    width: 200px;
-    height: 200px;
-    background-color: #d9d9d9;
-    border-radius: 5px;
+    width: 40vh; /* Increase width of images */
+    height: 42vh; /* Increase height of images */
 }
 
 .member p {
@@ -441,8 +438,21 @@ html {
         flex-direction: column;
     }
 
-    .sec5low{
+    .sec5low {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-image {
+        width: 50vh; /* Adjust size for smaller screens */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .button5 {
+        margin-top: 10px; /* Add a small margin for spacing */
+        display: flex;
+        justify-content: center;
     }
 }
 
