@@ -268,7 +268,7 @@ section {
 
 /* Profile Image Styles */
 .profile-image {
-    width: 50vh; /* Adjust as needed */
+    width: 43vh; /* Adjust as needed */
     height: 50vh;
     max-height: 400px;
     margin-right: 100px; /* Adds space between the image and button */
@@ -281,7 +281,7 @@ section {
     font-size: 45px;
     color: #ffffff;
     margin-top: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     
 }
 .button5 {
@@ -394,7 +394,7 @@ section {
 .member {
     width: 42vh; /* Increase width to make images larger */
     height: 42vh; /* Increase height accordingly */
-    margin-bottom: 10px; /* Reduce bottom margin to minimize spacing */
+    margin-bottom: 100px; /* Reduce bottom margin to minimize spacing */
 }
 
 .member-image {
