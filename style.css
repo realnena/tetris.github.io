@@ -460,10 +460,14 @@ html {
         align-items: center;
     }
 
-    .profile-image {
-        width: 50vh; /* Adjust size for smaller screens */
-        margin-right: 0; /* Remove right margin */
+    .project-image, .profile-image {
+        display: flex;
+        justify-content: center;
+        width: 80%; /* Adjust to center image and fit smaller screens */
+        margin: 0 auto; /* Center the image horizontally */
     }
+
+    
 
     .button5 {
         margin-top: 10px; /* Add a small margin for spacing */
