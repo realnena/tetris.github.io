@@ -279,7 +279,7 @@ section {
 
 /* Profile Image Styles */
 .profile-image {
-    width: 43vh; /* Adjust as needed */
+    width: 40vh; /* Adjust as needed */
     height: 50vh;
     max-height: 400px;
     margin-right: 100px; /* Adds space between the image and button */
